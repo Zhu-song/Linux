@@ -80,5 +80,6 @@ open -a app名称：打开app
 | tar  | 解压 / 压缩文件（安装包处理）              | 解压：`tar -zxvf linux_amd64_server.tar.gz`（解压 NPS 安装包）；压缩：`tar -zcvf nps-backup.tar.gz /root/nps`（备份 NPS 目录）                                     |
 | rpm  | CentOS 二进制包安装（.rpm 文件）        | `sudo rpm -ivh xxx.rpm`（安装 rpm 包）、`sudo rpm -e xxx`（卸载 rpm 包）                                                                                  |
 | dpkg | Ubuntu 二进制包安装（.deb 文件）        | `sudo dpkg -i xxx.deb`（安装 deb 包）、`sudo dpkg -r xxx`（卸载 deb 包）                                                                                  |
+
 **在虚拟机中查看公网IP：`curl icanhazip.com`。（原理：通过向第三方公网服务器发送HTTP请求，由服务器反向识别并返回你的出口公网IP，而非本地直接计算或获取。）**
 **在macOS系统的iterm2中一般情况下，证书文件放在/Users/zhusong/.ssh下面。**
